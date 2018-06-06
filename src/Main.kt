@@ -25,17 +25,20 @@ fun main(args: Array<String>) {
 //    checkScore3(85)
 //    checkScore3(90)
 
-    val date = Date()
-    val format = SimpleDateFormat("MMyy", Locale.ENGLISH)
-    val mmyy =  format.format(date)
-    println(mmyy)
-    val pass = HashPassword.genPassword(mmyy)
-    println("Password: " + pass)
-    if (HashPassword.getIsValid(pass, mmyy)) {
-        println("True")
-    } else {
-        println("False")
-    }
+//    val date = Date()
+//    val format = SimpleDateFormat("MMyy", Locale.ENGLISH)
+//    val mmyy =  format.format(date)
+//    println(mmyy)
+//    val pass = HashPassword.genPassword(mmyy)
+//    println("Password: " + pass)
+//    if (HashPassword.getIsValid(pass, mmyy)) {
+//        println("True")
+//    } else {
+//        println("False")
+//    }
+
+    println("Hello World!!!")
+
 }
 
 fun double(amount: Double): Double {
